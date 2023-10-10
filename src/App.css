@@ -24,7 +24,7 @@
   color: white;
 }
 body {
-  background-color: #282c34;
+  background-color: #144cf4;
 }
 .App-link {
   color: #61dafb;
@@ -51,18 +51,50 @@ body {
   color: #9495A5;
   font-size: 18px;
   border-radius: 5px;
-  
+  padding-left: 25px;
+  border: 0;
 }
-.resultDiv {
+.resultsDiv {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 .createButton {
   height: 50px;
-  font-size: 50px;
-  background-color: #282c34;
+  font-size: 40px;
   border: 0;
+  background-color: #144cf4;
   color: white;
+  cursor: pointer;
 }
 h1 {
   color: white;
+}
+.itemsDiv {
+  margin-top: 25px;
+  width: 540px;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0;
+}
+.itemsDiv::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 2px;
+}
+
+.itemsDiv::-webkit-scrollbar-thumb {
+  background-color: #7b7878;
+  border-radius: 5px;
+}
+
+.itemsDiv::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.itemsDiv::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 5px;
 }

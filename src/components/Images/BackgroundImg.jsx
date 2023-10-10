@@ -1,16 +1,7 @@
-const BackgroundImg = ({width, position}) => {
-    return (
-        <svg 
-            width={width}
-            position={position}
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <path 
-                d="M0 0h100v100H0z"
-            />
-        </svg>
-    );
-};
+// const BackgroundImg = ({width, position}) => {
+//     return (
+//         <Image src={require("./public/images/BigImg.png")} />
+//     );
+// };
 
-export default BackgroundImg
+// export default BackgroundImg
